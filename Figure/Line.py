@@ -1,3 +1,12 @@
+import os,json,numpy
+import matplotlib
+import matplotlib as plt
+import matplotlib.pyplot as plt
+font = {'family': 'arial',
+        'size': 24}
+matplotlib.rcParams['mathtext.rm'] = 'arial'
+figure_path='/home/chenboc1/localscratch2/chenboc1/Adver_Conv/result/result_figure/figures'
+matplotlib.rc('font', **font)
 
 #绘制折线图，添加数据点，设置点的大小
 # * 表示绘制五角星；此处也可以不设置线条颜色，matplotlib会自动为线条添加不同的颜色
